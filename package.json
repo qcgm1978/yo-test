@@ -6,7 +6,7 @@
     "chai": "*"
   },
   "scripts": {
-    "test": "mocha ./spec/chai.js"
+    "test": "mocha ./spec/online-expect-suite.js"
   },
   "devDependencies": {
     "mocha": "*"
