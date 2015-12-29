@@ -3,10 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "dependencies": {
-      "chai": "~1.8.0",
-      "mocha":"2.0.1"
+    "chai": "*"
   },
   "scripts": {
-    "test": "mocha ./spec/*.js"
+    "test": "mocha ./spec/chai.js"
+  },
+  "devDependencies": {
+    "mocha": "*"
   }
 }
